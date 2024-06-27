@@ -29,6 +29,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
+<!--oncontextmenu="disableRightClick(event)" -->
 <body class="index-page" oncontextmenu="disableRightClick(event)">
 
   <header id="header" class="header d-flex flex-column">
@@ -54,12 +55,15 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> Om</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> Om mig</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resumé</a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Kontakt</a></li>
       </ul>
     </nav>
-
+    <div class="container d-flex flex-column align-items-center pt-1 pb-1">
+      <h5>Oversætte</h5>
+      <div id="googleTranslate"></div>
+    </div>
   </header>
 
   <main class="main">
@@ -376,7 +380,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>

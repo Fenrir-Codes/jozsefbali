@@ -254,3 +254,10 @@ document.onkeydown = function (event) {
       return false;
   }
 }
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+      {pageLanguage: 'dk'},
+      'googleTranslate'
+  );
+} 
