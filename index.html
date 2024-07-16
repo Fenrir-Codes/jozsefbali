@@ -358,22 +358,20 @@
     </section>
      <!-- End Projects section -->
 
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
+
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Kontakt</h2>
-      </div><!-- End Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-      </div><!-- End Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-12">
+          <div class="col-lg-5">
 
             <div class="info-wrap">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -381,6 +379,14 @@
                 <div>
                   <h3>Addresse</h3>
                   <p>Mjølnerparken 78, 4.TH. 2200 København N</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telefon</h3>
+                  <p>+45 42 99 75 26</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -395,9 +401,48 @@
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17983.82607864967!2d12.5502321!3d55.70674965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652524ed8dafa11%3A0xc5d62a24362864c1!2sMj%C3%B8lnerparken%2078%2C%202200%20K%C3%B8benhavn!5e0!3m2!1shu!2sdk!4v1719422210426!5m2!1shu!2sdk"
                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+
             </div>
           </div>
+
+          <div class="col-lg-7">
+            <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <input type="hidden" name="access_key" value="a810c507-fd36-4444-b7bd-8319809036b5">
+                <input type="hidden" name="from_name" value="FromMyPersonalPage">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <input type="hidden" name="redirect" value="https://fenrir-codes.github.io/jozsefbali/thanks.html">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Dit navn</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Din Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required>
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Emne</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required>
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
 
         </div>
 
@@ -406,8 +451,8 @@
       <div class="container section-title" data-aos="fade-up">
       </div><!-- End Section Title -->
 
-
     </section><!-- /Contact Section -->
+
 
   </main>
 
